@@ -1,0 +1,205 @@
+/* SECTION 1 */
+
+
+.hs-containers {
+    width: 90%;
+    margin: 200px auto 30px !important;
+}
+
+.hs-about {
+    display: flex; 
+}
+
+.hs-about figure {
+    width: 55%;
+}
+
+.hs-about figure img {
+    width: 100%;
+    margin-top: -97px;
+}
+
+._text {
+    width: 45%;
+}
+
+._text p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.813rem;
+    line-height: 64px;
+    padding-bottom: 22px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hs-about{
+        flex-direction: column-reverse;
+    }
+    .hs-about figure img{
+        margin-top: -8px;
+    }
+
+    
+
+
+       /* .core{
+        width: 100%;
+    }
+
+    p{
+        font-size: 16px;
+    } */
+}
+@media screen and (max-width: 600px) {
+    .hs-about {
+        flex-direction: column-reverse;
+    }
+
+    .hs-about ._text {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .hs-about ._text h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .hs-about figure {
+        width: 100%;
+    }
+
+    .hs-core {
+        padding-top: 40px;
+    }
+}
+
+
+
+/* SECTION 2 */
+
+.hr-container {
+    width: 90%;
+    margin: 100px auto 0px;
+}
+
+.reverse {
+    
+    flex-direction: row-reverse;
+    justify-content: space-between;
+   
+}
+
+.reverse figure {
+    width: 40%;
+}
+
+.reverse figure img {
+    width: 100%;
+    margin-top: -60px;
+}
+
+.reverse ._texta {
+    width: 47%;
+}
+
+@media screen and (max-width: 768px) {
+    .reverse{
+        width: 100%;
+        flex-direction: column-reverse;
+
+    }
+    .reverse ._texta {
+        width: 95%;
+        margin: auto;
+    }
+    ._texta {
+        width: 100%;
+        margin-top: 30px;
+        font-family: Epilogue SemiBold;
+        line-height: 32px;
+        margin-left: 0.83em;
+    } 
+
+    
+    .reverse figure {
+        width: 95%;
+        margin: auto;
+        margin-left: 0.83em;
+    }
+
+    .reverse figure img{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* CORE SECTION */
+
+.hc-container {
+    width: 90%;
+    margin: 30px auto 0px;
+}
+
+.hs-core{
+    padding-top: 100px;
+}
+
+.hs-core h3{
+    font-size: 1.75rem;
+    margin-bottom: 35px;
+}
+
+.hs-core p{
+    padding-bottom: 32px;
+}
+
+.hs-core_inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.core{
+    width: 44%;
+}
+
+
+.core {
+    margin-bottom: 30px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(226, 226, 226, 0.51) 0px 7px 29px 0px;
+}
+
+.core p {
+    font-size: 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+.affiliates{
+    margin: 100px 0px;
+}
+
+.affiliates img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .core{
+        width: 100%;
+    }
+
+    p{
+        font-size: 16px;
+    }
+}

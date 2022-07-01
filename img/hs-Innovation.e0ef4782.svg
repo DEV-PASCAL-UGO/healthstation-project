@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="118px" viewBox="0 0 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>387D3291-FD89-4963-9E00-B0ADD607ACF6</title>
+    <defs>
+        <filter x="-181.2%" y="-181.2%" width="462.5%" height="462.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.18 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="32" height="32" rx="16"></rect>
+    </defs>
+    <g id="iteration-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HS-about-us-page" transform="translate(-739.000000, -2014.000000)">
+            <g id="Group-7" transform="translate(773.000000, 2047.000000)">
+                <g id="Group-2-Copy-2">
+                    <circle id="Oval" fill="#FFA436" opacity="0.19888451" cx="25.5" cy="25.5" r="25.5"></circle>
+                    <g id="Send-Button" filter="url(#filter-1)" transform="translate(9.000000, 10.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Base" fill="#FFA436" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+                <g id="lightbulb" transform="translate(17.000000, 15.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M8,0 C3.59375022,0 0,3.59375022 0,8 C0,9.70486133 0.75,11.4722222 1.77777778,13.0555556 C2.54166667,14.2326391 3.45486133,15.3159724 4.44444444,16.1388889 L4.44444444,18.6666667 C4.44444444,19.6388889 5.25,20.4444444 6.22222222,20.4444444 L7.11111111,21.3333333 L8.88888889,21.3333333 L9.77777778,20.4444444 C10.75,20.4444444 11.5555556,19.6388889 11.5555556,18.6666667 L11.5555556,16.1388889 C12.5451387,15.3159724 13.4583333,14.2326391 14.2222222,13.0555556 C15.25,11.4722222 16,9.70486133 16,8 C16,3.59375022 12.4062498,0 8,0 Z M8,1.77777778 C11.4479164,1.77777778 14.2222222,4.55208356 14.2222222,8 C14.2222222,9.16319467 13.6493058,10.6979164 12.75,12.0833333 C11.9479164,13.3194444 10.8923609,14.4201387 9.91666667,15.1111111 L6.08333333,15.1111111 C5.10763911,14.4201387 4.05208356,13.3194444 3.25,12.0833333 C2.35069422,10.6979164 1.77777778,9.16319467 1.77777778,8 C1.77777778,4.55208356 4.55208356,1.77777778 8,1.77777778 Z M6.44444444,16.8888889 L9.55555556,16.8888889 C9.625,16.9375004 9.69791644,16.9722222 9.77777778,17 L9.77777778,18.6666667 L6.22222222,18.6666667 L6.22222222,17 C6.30208356,16.9722222 6.375,16.9375004 6.44444444,16.8888889 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
